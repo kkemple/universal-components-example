@@ -1,6 +1,6 @@
 {
   "name": "@kkemple/universal-components",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Universal components repository",
   "main": "index.js",
   "scripts": {
@@ -51,13 +51,15 @@
     "prop-types": "^15.5.10",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "react-primitives": "^0.4.3",
     "react-test-renderer": "^15.6.1",
     "surge": "^0.19.0"
   },
   "peerDependencies": {
     "prop-types": ">=15",
     "react": ">=15",
-    "react-primitives": ">=0.4"
+    "react-native": ">=0.42"
+  },
+  "dependencies": {
+    "react-native-web": "^0.0.129"
   }
 }
