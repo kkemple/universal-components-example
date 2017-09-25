@@ -1,7 +1,7 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
-import { View, Text, StyleSheet } from 'react-primitives';
+import { View, Text, StyleSheet } from 'react-native';
 
 import Button from '../';
 

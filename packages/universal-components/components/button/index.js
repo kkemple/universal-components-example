@@ -1,7 +1,13 @@
 // @flow
 
 import React, { Component } from 'react';
-import { Touchable, View, Text, StyleSheet } from 'react-primitives';
+import {
+  Platform,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
+} from 'react-native';
 import PropTypes from 'prop-types';
 
 export type ButtonProps = {
@@ -65,11 +71,11 @@ export default class Button extends Component<ButtonProps, *> {
     const computedStyles = styles(backgroundColor, fontColor, size);
 
     return (
-      <Touchable onPress={onPress}>
+      <TouchableOpacity onPress={onPress}>
         <View style={[computedStyles.container, style]}>
           <Text style={computedStyles.text}>{text.toUpperCase()}</Text>
         </View>
-      </Touchable>
+      </TouchableOpacity>
     );
   };
 }
@@ -88,7 +94,7 @@ const styles = (
     text: {
       backgroundColor: 'transparent',
       color: fontColor,
-      fontFamily: 'sans-serif',
+      fontFamily: Platform.OS === 'web' ? 'sans-serif' : undefined,
       fontSize: getButtonFontSize(size),
       fontWeight: 'bold',
       textAlign: 'center',
