@@ -1,14 +1,4 @@
-import { configure, addDecorator } from '@storybook/react';
-import { setOptions } from '@storybook/addon-options';
-
-setOptions({
-  name: 'Universal Components Example',
-  url: 'https://github.com/kkemple/universal-components-example',
-  goFullScreen: false,
-  showLeftPanel: true,
-  sortStoriesByKind: false,
-  hierarchySeparator: '/',
-});
+import { configure } from '@storybook/react';
 
 const req = require.context(
   '../components/', // path where stories live
