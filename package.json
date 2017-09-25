@@ -1,0 +1,24 @@
+{
+  "name": "@kkemple/universal-components-example",
+  "description": "An example setup for universal components",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "start-storybook -p 9001 -c .storybook",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kkemple/universal-components-example.git"
+  },
+  "keywords": ["universal", "components", "react", "react", "native"],
+  "author": "Kurtis Kemple <kurtiskemple@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kkemple/universal-components-example/issues"
+  },
+  "homepage": "https://github.com/kkemple/universal-components-example#readme",
+  "devDependencies": {
+    "lerna": "^2.2.0"
+  }
+}

@@ -1,0 +1,9 @@
+[ignore]
+.*/storybook-static/.*
+.*/node_modules/animated/*
+.*/node_modules/react-native-web/*
+.*/node_modules/radium/*
+.*/node_modules/immutable/*
+
+[libs]
+flow-typed
