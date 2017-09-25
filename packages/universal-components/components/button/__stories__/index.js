@@ -1,18 +1,17 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { action } from '@storybook/addon-actions';
 import { View, Text, StyleSheet } from 'react-native';
 
 import Button from '../';
 
-storiesOf('Shared Components', module).add('Button', () => {
+storiesOf('Universal Components', module).add('Button', () => {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Button</Text>
       <View style={styles.example}>
         <Text style={styles.exampleTitle}>Example</Text>
         <View style={styles.exampleWrapper}>
-          <Button text="Press Me!" onPress={action('Button Pressed!')} />
+          <Button text="Press Me!" onPress={() => alert('Button Pressed!')} />
         </View>
       </View>
     </View>

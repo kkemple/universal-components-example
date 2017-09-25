@@ -7,3 +7,6 @@
 
 [libs]
 flow-typed
+
+[options]
+module.name_mapper='\(react-native\)' -> 'react-native-web'

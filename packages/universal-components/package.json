@@ -14,13 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/kkemple/universal-components-example.git"
   },
-  "keywords": [
-    "universal",
-    "components",
-    "react",
-    "react-native",
-    "react-vr"
-  ],
+  "keywords": ["universal", "components", "react", "react-native", "react-vr"],
   "author": "Kurtis Kemple <kurtiskemple@gmail.com>",
   "license": "MIT",
   "bugs": {
@@ -28,15 +22,12 @@
   },
   "homepage": "https://github.com/kkemple/universal-components-example#readme",
   "jest": {
-    "moduleFileExtensions": [
-      "web.js",
-      "js"
-    ]
+    "moduleFileExtensions": ["web.js", "js"]
   },
   "devDependencies": {
-    "@storybook/addon-actions": "^3.2.10",
     "@storybook/addon-options": "^3.2.10",
     "@storybook/react": "^3.2.10",
+    "babel-minify-webpack-plugin": "^0.2.0",
     "babel-plugin-module-resolver": "^2.7.1",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
@@ -47,6 +38,7 @@
     "enzyme-to-json": "^2.0.0",
     "flow-bin": "^0.55.0",
     "flow-typed": "^2.1.5",
+    "friendly-errors-webpack-plugin": "^1.6.1",
     "jest": "^21.1.0",
     "prop-types": "^15.5.10",
     "react": "^15.6.1",
