@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import { Button } from '@kkemple/universal-components';
+
 class App extends Component {
   render() {
     return (
@@ -12,6 +14,12 @@ class App extends Component {
         </div>
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
+          <div className="Button-wrapper">
+            <Button
+              text="Press on Web!"
+              onPress={() => alert('Button Pressed!')}
+            />
+          </div>
         </p>
       </div>
     );
