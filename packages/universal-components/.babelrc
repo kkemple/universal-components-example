@@ -1,0 +1,13 @@
+{
+  "plugins": [
+    "transform-class-properties",
+    "transform-es2015-modules-commonjs",
+    [
+      "module-resolver",
+      {
+        "extensions": ["web.js", ".js"]
+      }
+    ]
+  ],
+  "presets": ["react", "stage-2", "flow"]
+}
