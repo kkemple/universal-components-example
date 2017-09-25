@@ -15,7 +15,7 @@ describe('<Button />', () => {
     const wrapper = mount(<Button text="Test" onPress={spy} />);
 
     wrapper
-      .find('Touchable')
+      .find('TouchableOpacity')
       .first()
       .props()
       .onPress();

@@ -5,32 +5,15 @@ exports[`<Button /> <Button text="Test" /> 1`] = `
   onPress={[Function]}
   text="Test"
 >
-  <Touchable
-    activeValue={1}
-    delayLongPress={500}
-    delayPressIn={0}
-    delayPressOut={100}
+  <TouchableOpacity
+    activeOpacity={0.2}
+    focusedOpacity={0.7}
     onPress={[Function]}
-    press={
-      AnimatedValue {
-        "_animation": null,
-        "_children": Array [],
-        "_listeners": Object {},
-        "_offset": 0,
-        "_value": 0,
-      }
-    }
-    pressDuration={150}
-    pressRetentionOffset={
-      Object {
-        "bottom": 30,
-        "left": 20,
-        "right": 20,
-        "top": 20,
-      }
-    }
   >
     <View
+      accessible={true}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
       onResponderRelease={[Function]}
@@ -39,35 +22,49 @@ exports[`<Button /> <Button text="Test" /> 1`] = `
       onStartShouldSetResponder={[Function]}
       style={
         Array [
-          64,
-          Array [
-            65,
-            undefined,
-          ],
+          41,
+          42,
+          undefined,
         ]
       }
     >
       <div
-        className="rn-alignItems-1oszu61 rn-backgroundColor-1lb2wte rn-borderTopLeftRadius-3v92ek rn-borderTopRightRadius-fm6ini rn-borderBottomRightRadius-x4nnad rn-borderBottomLeftRadius-1rz6xei rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1pxmb3b rn-flexBasis-7vfszb rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-5t7p9m rn-paddingRight-n3sdqm rn-paddingBottom-i03k3n rn-paddingLeft-y8nl5v rn-position-bnwqim"
+        className="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1pxmb3b rn-flexBasis-7vfszb rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-touchAction-1gvxusu rn-transitionDuration-eafdt9 rn-transitionProperty-1i6wzkk rn-userSelect-lrvibr"
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
         onResponderRelease={[Function]}
         onResponderTerminate={[Function]}
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
+        tabIndex="0"
       >
-        <Text
-          style={66}
+        <View
+          style={
+            Array [
+              64,
+              undefined,
+            ]
+          }
         >
           <div
-            className="rn-backgroundColor-wib322 rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-color-13p8erv rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-1x2decy rn-fontSize-ubezar rn-fontWeight-vw2c0b rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
-            dir="auto"
+            className="rn-alignItems-1oszu61 rn-backgroundColor-1lb2wte rn-borderTopLeftRadius-3v92ek rn-borderTopRightRadius-fm6ini rn-borderBottomRightRadius-x4nnad rn-borderBottomLeftRadius-1rz6xei rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1pxmb3b rn-flexBasis-7vfszb rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-5t7p9m rn-paddingRight-n3sdqm rn-paddingBottom-i03k3n rn-paddingLeft-y8nl5v rn-position-bnwqim"
           >
-            TEST
+            <Text
+              style={65}
+            >
+              <div
+                className="rn-backgroundColor-wib322 rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-color-13p8erv rn-display-1471scf rn-font-1lw9tu2 rn-fontFamily-1x2decy rn-fontSize-ubezar rn-fontWeight-vw2c0b rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textAlign-q4m81j rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+                dir="auto"
+              >
+                TEST
+              </div>
+            </Text>
           </div>
-        </Text>
+        </View>
       </div>
     </View>
-  </Touchable>
+  </TouchableOpacity>
 </Button>
 `;

@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@kkemple/universal-components@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.npmjs.org/@kkemple/universal-components/-/universal-components-0.0.2.tgz#70be5e15876476a5b548ecbaa7c3f916a03d7c4b"
+"@kkemple/universal-components@^0.0.5":
+  version "0.0.5"
+  resolved "https://registry.npmjs.org/@kkemple/universal-components/-/universal-components-0.0.5.tgz#d4b121c76b2c778bfe412c481c82509fd172bacd"
 
 abab@^1.0.3:
   version "1.0.4"
@@ -2681,7 +2681,7 @@ fs.realpath@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
 
-fsevents@1.1.2, fsevents@^1.0.0:
+fsevents@^1.0.0:
   version "1.1.2"
   resolved "https://registry.npmjs.org/fsevents/-/fsevents-1.1.2.tgz#3282b713fb3ad80ede0e9fcf4611b5aa6fc033f4"
   dependencies:
@@ -5171,48 +5171,6 @@ react-primitives@^0.4.3:
     react-native-web "0.0.x"
     react-timer-mixin "^0.13.3"
     string-hash "^1.1.3"
-
-react-scripts@1.0.13:
-  version "1.0.13"
-  resolved "https://registry.npmjs.org/react-scripts/-/react-scripts-1.0.13.tgz#a51d775a4b195ab2653c562b735735c8f70cba0e"
-  dependencies:
-    autoprefixer "7.1.2"
-    babel-core "6.25.0"
-    babel-eslint "7.2.3"
-    babel-jest "20.0.3"
-    babel-loader "7.1.1"
-    babel-preset-react-app "^3.0.2"
-    babel-runtime "6.26.0"
-    case-sensitive-paths-webpack-plugin "2.1.1"
-    chalk "1.1.3"
-    css-loader "0.28.4"
-    dotenv "4.0.0"
-    eslint "4.4.1"
-    eslint-config-react-app "^2.0.0"
-    eslint-loader "1.9.0"
-    eslint-plugin-flowtype "2.35.0"
-    eslint-plugin-import "2.7.0"
-    eslint-plugin-jsx-a11y "5.1.1"
-    eslint-plugin-react "7.1.0"
-    extract-text-webpack-plugin "3.0.0"
-    file-loader "0.11.2"
-    fs-extra "3.0.1"
-    html-webpack-plugin "2.29.0"
-    jest "20.0.4"
-    object-assign "4.1.1"
-    postcss-flexbugs-fixes "3.2.0"
-    postcss-loader "2.0.6"
-    promise "8.0.1"
-    react-dev-utils "^4.0.1"
-    style-loader "0.18.2"
-    sw-precache-webpack-plugin "0.11.4"
-    url-loader "0.5.9"
-    webpack "3.5.1"
-    webpack-dev-server "2.7.1"
-    webpack-manifest-plugin "1.2.1"
-    whatwg-fetch "2.0.3"
-  optionalDependencies:
-    fsevents "1.1.2"
 
 react-timer-mixin@^0.13.3:
   version "0.13.3"
