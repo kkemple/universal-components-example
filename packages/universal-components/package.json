@@ -46,6 +46,7 @@
   "peerDependencies": {
     "prop-types": ">=15",
     "react": ">=15",
+    "react-dom": ">=15",
     "react-native": ">=0.42",
     "react-native-web": ">=0.0.129"
   }
